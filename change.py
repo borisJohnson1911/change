@@ -18,11 +18,11 @@ def inline(message):
     bot.send_message(message.chat.id, "Текст первого сообщения", reply_markup=key
 
 @bot.message_handler(commands=["start1"])
-def inline(message):
+def inline1(message):
     bot.send_message(message.chat.id, "First is done")
 	
 @bot.message_handler(commands=["start2"])
-def inline(message):
+def inline2(message):
     bot.send_message(message.chat.id, "Second is done")
 
 
