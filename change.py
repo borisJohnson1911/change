@@ -22,9 +22,9 @@ def inline1(message):
     if unique_code == 1:
             bot.send_message(message.chat.id, "First is done")
 
-@bot.message_handler(commands=["start 1"])
-def inline1(message):
-    bot.send_message(message.chat.id, "First is done")
+#@bot.message_handler(commands=["start 1"])
+#def inline1(message):
+#    bot.send_message(message.chat.id, "First is done")
 	
 @bot.message_handler(commands=["start2"])
 def inline2(message):
