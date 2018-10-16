@@ -19,10 +19,9 @@ def extract_unique_code(text):
 def in_storage(unique_code):
     return True
 
-unique_code = extract_unique_code(message.text)
-
 @bot.message_handler(commands=["start"])
 def inline1(message):
+    unique_code = extract_unique_code(message.text)
     if unique_code:
         if unique_code==1:
             bot.send_message(message.chat.id, "First is done")
