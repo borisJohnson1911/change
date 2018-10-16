@@ -13,9 +13,17 @@ but_3 = types.InlineKeyboardButton(text="Наши специалисты", callb
 but_4 = types.InlineKeyboardButton(text="Задать вопрос", callback_data="Задать вопрос")
 key.add(but_1, but_2, but_3, but_4)
 
+def extract_unique_code(text):
+    return text.split()[1] if len(text.split()) > 1 else None
+
+def in_storage(1):
+    return True
+
 @bot.message_handler(commands=["start"])
-def inline(message):
-    bot.send_message(message.chat.id, "Текст первого сообщения", reply_markup=key)
+    unique_code = extract_unique_code(message.text)
+    if unique_code:
+        if unique_code==1:
+            bot.send_message(message.chat.id, "First is done")
 
 @bot.message_handler(commands=["start 1"])
 def inline1(message):
