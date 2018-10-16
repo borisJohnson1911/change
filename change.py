@@ -16,24 +16,21 @@ key.add(but_1, but_2, but_3, but_4)
 def extract_unique_code(text):
     return text.split()[1] if len(text.split()) > 0 else None
 
-def save_chat_id(chat_id):
-    pass
-
 @bot.message_handler(commands=["start"])
-def inline1(message):
+def inline(message):
     unique_code = extract_unique_code(message.text)
     if unique_code == "1":
-        bot.send_message(message.chat.id, "First is done")
+        bot.send_message(message.chat.id, "Продолжение оплаты курса Новичок")
+    if unique_code == "2":
+        bot.send_message(message.chat.id, "Продолжение оплаты курса Теханализ")
+    if unique_code == "3":
+        bot.send_message(message.chat.id, "Продолжение оплаты курса Трейдер")
+    if unique_code == "4":
+        bot.send_message(message.chat.id, "Продолжение оплаты курса Профи")
+    if unique_code == "5":
+        bot.send_message(message.chat.id, "Продолжение оплаты Торговых сигналов")
     else:
-        bot.send_message(message.chat.id, "First is not")
-
-#@bot.message_handler(commands=["start 1"])
-#def inline1(message):
-#    bot.send_message(message.chat.id, "First is done")
-	
-@bot.message_handler(commands=["start2"])
-def inline2(message):
-    bot.send_message(message.chat.id, "Second is done")
+        bot.send_message(message.chat.id, "Only START", reply_markup=key)
 
 
 if __name__ == '__main__':
