@@ -11,17 +11,18 @@ def extract_unique_code(text):
 @bot.message_handler(commands=["start"])
 def inline(message):
     unique_code = extract_unique_code(message.text)
-    if unique_code == "1":
-        bot.send_message(message.chat.id, "Продолжение оплаты курса Новичок")
-    if unique_code == "2":
-        bot.send_message(message.chat.id, "Продолжение оплаты курса Теханализ")
-    if unique_code == "3":
-        bot.send_message(message.chat.id, "Продолжение оплаты курса Трейдер")
-    if unique_code == "4":
-        bot.send_message(message.chat.id, "Продолжение оплаты курса Профи")
-    if unique_code == "5":
-        bot.send_message(message.chat.id, "Продолжение оплаты Торговых сигналов")
-    if unique_code == None:
+    if unique_code:
+        if unique_code == "1":
+            bot.send_message(message.chat.id, "Продолжение оплаты курса Новичок")
+        if unique_code == "2":
+            bot.send_message(message.chat.id, "Продолжение оплаты курса Теханализ")
+        if unique_code == "3":
+            bot.send_message(message.chat.id, "Продолжение оплаты курса Трейдер")
+        if unique_code == "4":
+            bot.send_message(message.chat.id, "Продолжение оплаты курса Профи")
+        if unique_code == "5":
+            bot.send_message(message.chat.id, "Продолжение оплаты Торговых сигналов")
+    else:
         bot.send_message(message.chat.id, "Старт")    
 
 
