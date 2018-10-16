@@ -8,7 +8,6 @@ chardet==3.0.4
 cryptography==2.3.1
 future==0.16.0
 idna==2.7
-menuinst==1.4.14
 multidict==4.4.2
 pycosat==0.6.3
 pycparser==2.19
