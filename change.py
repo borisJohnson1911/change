@@ -5,14 +5,6 @@ from telebot import types
 
 bot = telebot.TeleBot('647104623:AAETlpH2ZWORYFq7gsZ_zRT3kfJb-v116xI')
 
-#Стартовая клавиатура
-key = types.InlineKeyboardMarkup(row_width=1)
-but_1 = types.InlineKeyboardButton(text="Обучающие курсы", callback_data="Обучающие курсы")
-but_2 = types.InlineKeyboardButton(text="Торговые сигналы", callback_data="Торговые сигналы")
-but_3 = types.InlineKeyboardButton(text="Наши специалисты", callback_data="Наши специалисты")
-but_4 = types.InlineKeyboardButton(text="Задать вопрос", callback_data="Задать вопрос")
-key.add(but_1, but_2, but_3, but_4)
-
 def extract_unique_code(text):
     return text.split()[1] if len(text.split()) > 0 else None
 
@@ -29,8 +21,7 @@ def inline(message):
         bot.send_message(message.chat.id, "Продолжение оплаты курса Профи")
     if unique_code == "5":
         bot.send_message(message.chat.id, "Продолжение оплаты Торговых сигналов")
-    else:
-        bot.send_message(message.chat.id, "Only START", reply_markup=key)
+    
 
 
 if __name__ == '__main__':
