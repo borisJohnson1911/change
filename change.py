@@ -16,9 +16,6 @@ key.add(but_1, but_2, but_3, but_4)
 def extract_unique_code(text):
     return text.split()[1] if len(text.split()) > 0 else None
 
-def in_storage(unique_code):
-    return True
-
 @bot.message_handler(commands=["start"])
 def inline1(message):
     unique_code = extract_unique_code(message.text)
