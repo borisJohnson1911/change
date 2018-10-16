@@ -16,11 +16,16 @@ key.add(but_1, but_2, but_3, but_4)
 def extract_unique_code(text):
     return text.split()[1] if len(text.split()) > 1 else None
 
+def save_chat_id(chat_id):
+    pass
+
 @bot.message_handler(commands=["start"])
 def inline1(message):
     unique_code = extract_unique_code(message.text)
     if unique_code == 1:
-            bot.send_message(message.chat.id, "First is done")
+        bot.send_message(message.chat.id, "First is done")
+    else:
+        bot.send_message(message.chat.id, "First is not")
 
 #@bot.message_handler(commands=["start 1"])
 #def inline1(message):
