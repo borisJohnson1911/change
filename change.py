@@ -14,7 +14,7 @@ but_4 = types.InlineKeyboardButton(text="Задать вопрос", callback_da
 key.add(but_1, but_2, but_3, but_4)
 
 def extract_unique_code(text):
-    return text.split()[1] if len(text.split()) > 1 else None
+    return text.split()[1] if len(text.split()) > 0 else None
 
 def in_storage(unique_code):
     return True
