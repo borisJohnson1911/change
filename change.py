@@ -17,7 +17,7 @@ key.add(but_1, but_2, but_3, but_4)
 def inline(message):
     bot.send_message(message.chat.id, "Текст первого сообщения", reply_markup=key)
 
-@bot.message_handler(commands=["start"], args=["1"])
+@bot.message_handler(commands=["start 1"])
 def inline1(message):
     bot.send_message(message.chat.id, "First is done")
 	
