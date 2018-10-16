@@ -21,7 +21,8 @@ def inline(message):
         bot.send_message(message.chat.id, "Продолжение оплаты курса Профи")
     if unique_code == "5":
         bot.send_message(message.chat.id, "Продолжение оплаты Торговых сигналов")
-    
+    if unique_code == "":
+        bot.send_message(message.chat.id, "Старт")    
 
 
 if __name__ == '__main__':
