@@ -9,3 +9,4 @@ gc ; stuffbudz ; Trader
 promo ; stuffbudz ; Trader
 опс ; stuffbudz ; Trader
 ом ; stuffbudz ; Trader
+promo ; thoseppl ; Trader
