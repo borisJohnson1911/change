@@ -14,3 +14,4 @@ promo ; thoseppl ; Trader
 erfb ; stuffbudz ; Trader
 egve ; stuffbudz ; Trader
 ,m ; stuffbudz ; Trader
+promo ; stuffbudz ; Trader
