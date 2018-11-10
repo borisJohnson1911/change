@@ -21,3 +21,4 @@ transaction ; stuffbudz ; Trader
 yo ; stuffbudz ; Trader
 cool ; stuffbudz ; Profi
 promo ; stuffbudz ; Profi
+jgf ; stuffbudz ; Signals
