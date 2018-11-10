@@ -16,3 +16,4 @@ egve ; stuffbudz ; Trader
 ,m ; stuffbudz ; Trader
 promo ; stuffbudz ; Trader
 transaction ; stuffbudz ; Trader
+promo ; stuffbudz ; Trader
