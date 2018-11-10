@@ -31,3 +31,4 @@ G ; Boris_Johnson ; Novichok
 V ; Boris_Johnson ; Tehanaliz
 promo ; Boris_Johnson ; Tehanaliz
 Fgn ; Boris_Johnson ; Novichok
+F ; Boris_Johnson ; Novichok
