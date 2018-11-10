@@ -23,3 +23,4 @@ cool ; stuffbudz ; Profi
 promo ; stuffbudz ; Profi
 jgf ; stuffbudz ; Signals
 ghf ; stuffbudz ; Novichok
+promo ; Boris_Johnson ; Novichok
