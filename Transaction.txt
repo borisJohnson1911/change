@@ -19,3 +19,4 @@ transaction ; stuffbudz ; Trader
 promo ; stuffbudz ; Trader
 transaction ; stuffbudz ; Trader
 yo ; stuffbudz ; Trader
+cool ; stuffbudz ; Profi
