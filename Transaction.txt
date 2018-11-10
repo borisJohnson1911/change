@@ -30,3 +30,4 @@ f ; stuffbudz ; Signals
 G ; Boris_Johnson ; Novichok
 V ; Boris_Johnson ; Tehanaliz
 promo ; Boris_Johnson ; Tehanaliz
+Fgn ; Boris_Johnson ; Novichok
