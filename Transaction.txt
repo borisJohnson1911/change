@@ -37,3 +37,4 @@ h ; stuffbudz ; Signals
 j ; stuffbudz ; Signals
 U ; Boris_Johnson ; Tehanaliz
 C ; Boris_Johnson ; Trader
+Ji ; Boris_Johnson ; Trader
