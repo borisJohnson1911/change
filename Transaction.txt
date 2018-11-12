@@ -40,3 +40,4 @@ C ; Boris_Johnson ; Trader
 Ji ; Boris_Johnson ; Trader
 Xyu ; thoseppl ; Novichok
 И ; Boris_Johnson ; Novichok
+М ; Boris_Johnson ; Tehanaliz
