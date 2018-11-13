@@ -43,3 +43,4 @@ Xyu ; thoseppl ; Novichok
 М ; Boris_Johnson ; Tehanaliz
 И ; Boris_Johnson ; Profi
 Боряпидор ; thoseppl ; Tehanaliz
+Transaction ; thoseppl ; Novichok
